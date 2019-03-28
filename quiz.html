@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+
+  <body id="myForm">
+    <div class="grid">
+      <p id="login"></p>
+
+      <div id="quiz">
+        <div id="nex"></div>
+        <h1 id="subject"></h1>
+
+        <p id="timey"></p>
+
+        <div class="form-label-group"></div>
+
+        <p id="question"></p>
+        <div class="buttons">
+          <button id="btn0">
+            <span>A. <span id="choice0"></span></span>
+          </button>
+
+          <button id="btn1">
+            <span>B. <span id="choice1"></span></span>
+          </button>
+
+          <button id="btn2">
+            <span>C. <span id="choice2"></span></span>
+          </button>
+
+          <button id="btn3">
+            <span>D. <span id="choice3"></span></span>
+          </button>
+        </div>
+        <hr />
+
+        <footer>
+          <p id="progress"></p>
+          <p class="mt-5 mb-3 text-muted text-center" style="text-align:center">
+            &copy; Heritage School 2018-2019
+          </p>
+        </footer>
+      </div>
+    </div>
+    <script src="quiz_controller.js"></script>
+    <script src="quizQ.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+</html>

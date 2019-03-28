@@ -1,0 +1,31 @@
+.h1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+p{
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quotes{
+width: 66%;
+margin-right: auto;
+margin-left: auto;
+border-style: solid;
+border-radius: 10px;
+margin-top: 20px;
+padding: 20px;
+height: auto;
+color: white;
+}
+#quotes{
+  font-size: 50px;
+}
+#author{
+  font-size: 30px;
+  font-style: italic;
+  
+}
+
